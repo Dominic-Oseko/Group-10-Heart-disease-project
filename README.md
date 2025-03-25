@@ -8,3 +8,9 @@
 #### iii) To provide healthcare professionals with a tool that aids in the early detection and management of heart disease.
 #### iv) To make informed decisions regarding resource allocation and preventive care strategies based on model predictions.
 #### V) Increase awareness of heart disease risk factors among patients and the general public through educational materials and outreach programs.
+## DATA UNDERSTANDING
+#### Our data was extracted from Kaggle (https://www.kaggle.com/datasets/oktayrdeki/heart-disease) which has 21 columns and 10,000 rows. The data has both numerical and categorical features. The lebel encoding was useful for ordinal data in categorical featuresIt to ensure that the model can interpret the data, detect patterns, and make predictions effectively.
+
+
+
+
