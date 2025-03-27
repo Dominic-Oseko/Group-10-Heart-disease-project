@@ -72,7 +72,21 @@
 ##### Class 1: 0.76. The F1-scores indicate that Class 0 has a slightly better balance between precision and recall compared to Class 1.
 
 #### Best model selection
-##### The Random Forest model achieved an accuracy of 80.26%, which has the best accuracy compared to the other models with an ROC AUC score of 0.80 which is near to 1.0 suggesting to be the most model.
+##### The Random Forest model achieved an accuracy of 80.26%, which has the best accuracy compared to the other models with an ROC AUC score of 0.80 which is near to 1.0 suggesting to be the most model. We shall therefore go ahead and tune the Random Forest Model to improve its performance
+
+### ADVANCED MACHINE LEARNING (Hyperparameter Tuning)
+#### The Random Forest model after hyperparameter tuning achieved the following metrics:
+#### Accuracy: 0.807 (80.77%). The model correctly classified 80.77% of test cases, making it the best-performing model so far in terms of accuracy.
+#### ROC AUC Score: 0.807 (80.73%) Indicating good discrimination between positive and negative classes.
+#### Precision (Proportion of predicted positives that are actually positive):
+##### Class 0: 0.78
+##### Class 1: 0.85. The model is more precise in predicting Class 1 (positive cases) than Class 0.
+#### Recall (Proportion of actual positives correctly identified):
+##### Class 0: 0.86 (High recall, meaning fewer false negatives)
+##### Class 1: 0.75
+#### F1-Score (Harmonic mean of precision and recall):
+##### Class 0: 0.82
+##### Class 1: 0.80. The model balances precision and recall well for both classes.
 
 
 
