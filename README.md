@@ -1,4 +1,5 @@
 # Group-10-HEART-DISEASE-PREDICTION PROJECT
+![image](https://github.com/user-attachments/assets/387869e7-6126-4183-9911-43295e6d41ec)
 ## PREDICTING THE LIKELIHOOD OF HEART DISEASE FROM PATIENTS
 ## PROJECT UNDERSTANDING
 #### Heart disease remains a significant public health concern in Kenya, with increasing cases linked to lifestyle changes, urbanization and inadequate access to preventive healthcare. Despite growing awareness, early detection and treatment, risk assessment remains a challenge due to limited local research and data-driven insights. This study aims to analyze key health indicators. By identifying major risk factors and trends, this research seeks to support healthcare professionals, policymakers, and researchers in developing targeted interventions, improving early diagnosis, and enhancing public health strategies to combat heart disease in Kenya. The model will leverage data from the "heart_disease.csv" dataset, which includes demographic information, clinical measurements and historical health data.
