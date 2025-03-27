@@ -88,6 +88,9 @@
 ##### Class 0: 0.82
 ##### Class 1: 0.80. The model balances precision and recall well for both classes.
 
+## CONCLUSION
+#### The project aimed to analyze and predict heart disease based on various health-related features. 
+
 
 
 
