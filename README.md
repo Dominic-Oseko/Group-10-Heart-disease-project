@@ -27,28 +27,43 @@
 ##### The Random Forest model achieved an accuracy of 80.26%, which has the best accuracy compared to the other models with an ROC AUC score of 0.80 which is near to 1.0 suggesting to be the most model. We shall therefore go ahead and tune the Random Forest Model to improve its performance
 
 ### ADVANCED MACHINE LEARNING (Hyperparameter Tuning)
-#### The Random Forest model after hyperparameter tuning achieved the following metrics:
-#### Accuracy: 0.807 (80.77%). The model correctly classified 80.77% of test cases, making it the best-performing model so far in terms of accuracy.
-#### ROC AUC Score: 0.807 (80.73%) Indicating good discrimination between positive and negative classes.
-#### Precision (Proportion of predicted positives that are actually positive):
-##### Class 0: 0.78
-##### Class 1: 0.85. The model is more precise in predicting Class 1 (positive cases) than Class 0.
-#### Recall (Proportion of actual positives correctly identified):
-##### Class 0: 0.86 (High recall, meaning fewer false negatives)
-##### Class 1: 0.75
-#### F1-Score (Harmonic mean of precision and recall):
-##### Class 0: 0.82
-##### Class 1: 0.80. The model balances precision and recall well for both classes.
+![image](https://github.com/user-attachments/assets/b75d7484-ddf5-4b56-a689-7668f3a05f7a)
+
 
 ## CONCLUSION
-#### The project aimed to analyze and predict heart disease based on various health-related features. 
+This project aimed to analyze and predict heart disease based on various health-related features. Through Exploratory Data Analysis (EDA), feature engineering, and model evaluation, we derived the following key insights:
+1. Dataset Imbalance
+- The count plot of patients with and without heart disease revealed an imbalanced dataset. Since an imbalanced dataset can negatively affect model performance, SMOTE (Synthetic Minority Over-sampling Technique) was applied to balance the classes before training machine learning models.
+2. Data Distribution and Outliers
+- Histogram analysis showed that the numerical features are normally distributed, which is beneficial for machine learning models that assume normality.
+- Boxplots confirmed that there were no significant outliers, ensuring that extreme values would not distort predictions.
+3. Key Risk Factors for Heart Disease
+- A heatmap and feature correlation analysis revealed that features such as cholesterol levels, exercise habits, smoking, and stress levels had the strongest correlation with heart disease. These factors play a critical role in determining a patient's heart disease risk.
+4. Feature Encoding
+- Label Encoding was applied to transform categorical variables into numerical form. This was essential for incorporating ordinal categorical variables, such as exercise habits, into machine learning models.
+5. Feature Importance and Correlation
+- The correlation analysis showed BMI, Stress Level, and Homocysteine Level as the highest positively correlated features with heart disease, while Gender, Blood Pressure, and Alcohol Consumption had the lowest correlation.
+6. Model Performance Comparison
+- Four machine learning models—Random Forest, Logistic Regression, Gradient Boosting, and SVM—were trained and evaluated.
+- Random Forest emerged as the best model with an accuracy of 80.25%.
+- After hyperparameter tuning and advanced machine learning techniques, the Random Forest model’s accuracy improved from 80.25% to 80.76% with an ROC score of 0.8, indicating strong predictive capability.
 
-| Models| Accuracy | Column 3|
-|----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
-
+## RECOMMENDATION
+Based on these findings, the following recommendations are suggested:
+1. Public Health Interventions
+- Smoking, cholestral level, exercise habits, BMI, stress level and Homocysteine Level are strong indicators of heart disease risk. Awareness programs and lifestyle modification campaigns should be implemented to reduce these risk factors in at-risk populations.
+2. Government interventions
+- The government should come up with strict punishment such as fines for people who smoke in undesignated places. They can also advice manufacturers to consider filters which are less harmful to the smokers.
+- The government should allocate more funds in the health sector to facilitate frequent health camps and mobile clinics which can help in detecting heart diseases early on.
+- Additionally they should advice processors to correctly label ingredients such as quantity of sugar for consumer goods, this will aid consumers in their decision-making.
+3. Clinical Application of the Model
+- The improved Random Forest model (80.76% accuracy, 0.8 ROC score) can be integrated into a clinical decision support system (CDSS) to assist healthcare providers in identifying high-risk patients and making data-driven decisions.
+4. Feature Refinement and Further Data Collection
+- The correlation analysis showed that some features had minimal impact on heart disease prediction. Future research should focus on acquiring more relevant patient data, such as genetic factors or real-time heart monitoring metrics, to enhance model accuracy.
+5. Deploying the Model in a Real-World Setting
+- The model can be deployed as a web-based or mobile health application where users can input their health metrics and receive a risk assessment for heart disease. This could serve as an early warning system, prompting individuals to seek medical attention when necessary.
+6. Continued Model Optimization
+- Further improvements can be achieved through deep learning models, feature selection techniques, and real-time data analysis. Additionally, testing the model on external datasets will help validate its generalizability across different populations.
 
 
 
