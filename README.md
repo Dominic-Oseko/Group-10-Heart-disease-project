@@ -66,7 +66,9 @@ Based on these findings, the following recommendations are suggested:
 6. Continued Model Optimization
 - Further improvements can be achieved through deep learning models, feature selection techniques, and real-time data analysis. Additionally, testing the model on external datasets will help validate its generalizability across different populations.
 
-
+###References
+- kontchou, N.-A. T., mcCracy, A. W., & Schulman, K. A. (2019). Workforce Cost Model for Expanding Congenital and Rheumatic Heart Disease Services in Kenya. World J Pediatr Congenit Heart Surg, 321-327 .
+- Mbau, L., Jean M Fourie, W. s., Scarlatescu, O., Nel, G., & Gathecha, G. (2021, May/June). PASCAR and WHF Cardiovascular Disease Scorecard Project. Cardiovascular Journal of Heart Africa, 32(3). Retrieved from https://world-heart-federation.org/wp-content/uploads/Kenya-Country-Report.pdf
 
 
 
